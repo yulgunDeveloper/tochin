@@ -3,3 +3,13 @@
   display: inline-block;
   font-size: 1.25rem;
 }
+
+.menu-active{
+  color: #fff;
+  background: #1abc9c;
+}
+
+.menu-inactive{
+  color: #000;
+  background: #1abc9c;
+}

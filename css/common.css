@@ -8,11 +8,21 @@
 .menu-active{
   color: #fff;
   background: #1abc9c;
+  padding-left: 1.2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-right: 1.2rem;
+  border-radius: 13px;
 }
 
 .menu-inactive{
   color: #fff;
   background: #023d6f;
+  padding-left: 1.2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-right: 1.2rem;
+  border-radius: 13px;
 }
 
 .fixed-top {
@@ -36,13 +46,13 @@
 
 ul {
   display: inline;
-  padding-right: 4%;
+  padding-right: 8%;
   float: right;
 }
 
 li {
   display: inline;
-  padding-left: 1.5rem;
+  padding-left: 2rem;
 }
 
 .nav-link {
@@ -53,4 +63,33 @@ li {
 
 .container {
   padding-top: 0.8%;
+}
+.copyright {
+  background-color: #1a252f;
+}
+
+.py-4 {
+  padding-bottom: 2.7rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+#copyright {
+  justify-content: center;
+  height: 5px;
+  padding-left: 2%;
 }

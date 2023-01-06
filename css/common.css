@@ -1,7 +1,9 @@
 .title {
-  font-family: 'Pacifico', cursive;
-  display: inline-block;
-  font-size: 1.25rem;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 2.5rem;
+  padding-left: 5%;
+  padding-top: 1%;
+  display: inline;
 }
 
 .menu-active{
@@ -10,6 +12,39 @@
 }
 
 .menu-inactive{
-  color: #000;
-  background: #1abc9c;
+  color: #fff;
+  background: #023d6f;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+#mainNav {
+  color: #fff;
+  background: #023d6f;
+  width: 100%;
+  height: 80px;
+}
+
+ul {
+  display: inline;
+  padding: 0;
+  float: right;
+}
+
+li {
+  display: inline;
+}
+
+.nav-link {
+  text-decoration: none;
 }

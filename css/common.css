@@ -2,7 +2,6 @@
   font-family: 'Black Han Sans', sans-serif;
   font-size: 2.5rem;
   padding-left: 5%;
-  padding-top: 1%;
   display: inline;
 }
 
@@ -37,14 +36,21 @@
 
 ul {
   display: inline;
-  padding: 0;
+  padding-right: 4%;
   float: right;
 }
 
 li {
   display: inline;
+  padding-left: 1.5rem;
 }
 
 .nav-link {
   text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.container {
+  padding-top: 0.8%;
 }

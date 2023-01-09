@@ -62,7 +62,7 @@ li {
 }
 
 .container {
-  padding-top: 0.8%;
+  padding-top: 0.65%;
 }
 .copyright {
   background-color: #1a252f;
@@ -91,5 +91,5 @@ li {
 #copyright {
   justify-content: center;
   height: 5px;
-  padding-left: 2%;
+  padding-left: 1%;
 }
